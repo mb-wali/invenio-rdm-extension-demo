@@ -6,10 +6,7 @@
 # modify it under the terms of the MIT License; see LICENSE file for more
 # details.
 
-"""Invenio module to showcase how to add an extension to InvenioRDM"""
-
-# TODO: This is an example file. Remove it if you do not need it, including
-# the templates and static folders as well as the test case.
+"""Invenio module to showcase how to add an extension to InvenioRDM."""
 
 from __future__ import absolute_import, print_function
 
@@ -24,5 +21,5 @@ blueprint = Blueprint(
 
 @blueprint.route("/rdm-ext-demo")
 def index():
-    """RDM Extension Demo view"""
+    """RDM Extension Demo view."""
     return 'RDM Extension Demo!'

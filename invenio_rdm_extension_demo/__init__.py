@@ -6,7 +6,7 @@
 # modify it under the terms of the MIT License; see LICENSE file for more
 # details.
 
-"""Invenio module to showcase how to add an extension to InvenioRDM"""
+"""Invenio module to showcase how to add an extension to InvenioRDM."""
 
 from __future__ import absolute_import, print_function
 
