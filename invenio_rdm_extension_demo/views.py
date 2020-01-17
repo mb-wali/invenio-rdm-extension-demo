@@ -22,4 +22,4 @@ blueprint = Blueprint(
 @blueprint.route("/rdm-ext-demo")
 def index():
     """RDM Extension Demo view."""
-    return 'RDM Extension Demo!'
+    return 'RDM Extension Demo. This comes from the PR!'
